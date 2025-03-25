@@ -33,10 +33,10 @@ void splitLists(int **numbers, int rowCount, int *list1, int *list2) {
 }
 
 int compare(const void *a, const void *b) {
-    return (*(int *)a - *(int *)b);  // Ascending order
+    return (*(int *)a - *(int *)b);  
 }
 
-// Function to sort a list in ascending order
+
 void sortList(int *list, int size) {
     qsort(list, size, sizeof(int), compare);
 
